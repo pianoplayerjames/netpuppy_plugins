@@ -28,8 +28,6 @@ func (r *Template) Execute(pluginDataChan chan<- string) {
         }
 
         pluginInput := "[Plugin] " + input
-
-        // sends the input to the plugin channel instead of the main input channel.
         pluginDataChan <- pluginInput
 
         fmt.Println(pluginInput)
