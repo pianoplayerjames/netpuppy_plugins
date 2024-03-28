@@ -2,7 +2,7 @@
 - https://github.com/pianoplayerjames/netsquirrel
 
 # Install Plugins
-When you're running netsquirrel you can install a plugin by typing ```install``` to run the installer and then the name of the plugin. you can either type ```name_of_plugin``` or ```name_of_plugin.go```. After installing you may need to restart netsquirrel for it to work.
+When you're running netsquirrel you can install a plugin by typing ```install``` to run the installer and then the name of the plugin. you can either type ```name_of_plugin``` or ```name_of_plugin.go```. After installing you need to restart netsquirrel for it to work.
 
 # Custom plugin store
 In netsquirrel you can change the plugin store by editing plugins/install.go and changing the github repo to your own url. for example: ```https://raw.githubusercontent.com/<repo_username>/<repo_name>/<branch>```
