@@ -7,4 +7,7 @@
 # Changing plugin store
 - in netsquirrel you can change the plugin store by editing plugins/install.go and changing the github repo to your own url. for example: ```https://raw.githubusercontent.com/<repo_username>/<repo_name>/<branch>```
 
+# Want me to add your plugin?
+- Feel free to send a pull request with your plugin code and I will review it :)
+
 make sure all the go plugins are in the root directory of your repo.
